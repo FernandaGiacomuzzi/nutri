@@ -1,13 +1,308 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/*mantive alguns elementos do projeto original, troquei  a cor de fundo, a cor do header.*/
+*{
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    background-color:#E5F6E9;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+h1{
+    background-color:#328143;
+    font-size: 30;
+    font-family: sans-serif;
+   
 }
+
+header{
+    width: 100%;
+    height: 150px;
+}
+
+header .container{
+    display:block;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.nn{
+
+  position: absolute;
+  right: 16.5%; 
+  bottom: 20%;
+  
+}
+.comida1{
+
+  position: absolute;
+  left: 5%;
+  right: 10;
+  top: 6;
+}
+.comidas{
+
+  position: absolute;
+  right: 60%;
+  bottom: 18%;
+}
+.bc{
+
+  position: absolute;
+  right: 62.5%; 
+  bottom: 66.5%;
+}
+.noodles{
+  position: absolute;
+  right: 62.5%; 
+  bottom: 50.5%;
+
+ }
+ .figura{
+   position: absolute;
+   right: 0%; 
+   bottom: 81%;
+    
+   }
+ .tomates{
+   position: absolute;
+   left: 22.5%; 
+   bottom: 2%;
+        
+ }
+
+.pratocc{
+  position: absolute;
+  right: 2%; 
+  bottom: 8%;
+
+ }
+ footer.face{
+ position:absolute;
+ right: 52.9%; 
+bottom:0%
+    
+  }
+ .folha{
+ position: absolute;
+ right: 90%; 
+bottom: 30%;
+    
+ }
+  .garfo{
+ position: absolute;
+ right: 0.2%; 
+ bottom: 66%;
+        
+ }
+ .laranja{
+
+ position:absolute;
+ left: 150;
+ bottom: 5px;
+    }
+ .pratob{
+ position:absolute;
+ right: 62.5%;
+ bottom: 320px;
+    }
+
+p.descricao{
+  justify-content: center;
+  font-family: sans-serif;
+  text-align: center;
+  padding: 5px,10px,5px,10px;
+
+
+}
+
+ 
+header nav a:hover {
+       color: #689c84;
+      transition: 3s ease all;
+       
+        
+  }
+ 
+
+.container{
+    background-color:rgb(176, 238, 191);
+}
+
+ .botao{
+  background-color: #689c84;    
+  border: none;
+ transition: 3s ease all;
+ padding: 10;
+ right: 10px;
+ margin-right:auto;
+ margin-top: -2em;
+position: relative;
+ float: right;
+  }
+
+   .group{
+    margin-left: auto;
+    margin-right: auto;
+    width: 6em;
+    align-items:center;
+    display:flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 4%;
+    width: 35%;
+    background-color: #E5F6E9;
+    border: 2px solid #6bd4cc;
+    
+   }
+     
+     
+     .group2{
+      margin-left: auto;
+      margin-right: auto;
+      width: 6em;
+      align-items: center;
+      display:flex;
+      justify-content: space-around;
+      flex-direction: column;
+      padding: 4%;
+      width: 35%;
+      background-color: #E5F6E9;
+      border: 2px solid #6bd4cc;
+      
+     }
+     .group3{
+      margin-left: auto;
+      margin-right: auto;
+      width: 6em;
+      align-items: center;
+      display: flex;
+      justify-content:space-around;
+      flex-direction: column;
+      padding: 4%;
+      width: 35%;
+      background-color: #E5F6E9;
+      border: 2px solid #6bd4cc;
+      
+     }
+     .group4{
+      margin-left: auto;
+      margin-right: auto;
+      width: 6em;
+      align-items: center;
+      display: flex;
+      justify-content:space-around;
+      flex-direction: column;
+      padding: 4%;
+      width: 35%;
+      background-color: #E5F6E9;
+      border: 2px solid #6bd4cc;
+      
+     }
+
+      .group:hover{
+        color: #66a085;
+        transition: 3s ease all;
+        text-align: center;
+        cursor: pointer;
+
+      }   
+       
+      .group2:hover{
+        color: #66a085;
+        transition: 3s ease all;
+        text-align: center;
+        cursor: pointer;
+      } 
+      .group3:hover{
+        color: #66a085;
+        transition: 3s ease all;
+        text-align: center;
+        cursor: pointer;
+      } 
+      .group4:hover{
+        color: #66a085;
+        transition: 3s ease all;
+        text-align: center;
+        cursor: pointer;
+      }    
+     footer{
+      width: 100%;
+      height: 150%;
+      text-align: center;
+      
+
+     }
+    @media(max-width:1024px){
+        .selection.header{
+          width: 90px;
+        }.selection.container{
+          width: 90px;
+        }
+        .selection.botao{
+          width: 90px;
+        }
+        .selection.group{
+          width: 90px;
+        }
+        
+        .selection.group2{
+          width: 90px;
+        }
+        .selection.group3{
+          width: 90px;
+        }
+        .selection.group4{
+          width: 90px;
+        }
+        .selection.group:hover{
+          width: 90px;
+        }
+        .selection.group2:hover{
+          width: 90px;
+        }
+        .selection.group3:hover{
+          width: 90px;
+        }
+        .selection.group4:hover{
+          width: 90px;
+        }
+        .selection.comida1{
+          width: 90px;
+        }
+        .selection.comidas{
+          width: 90px;
+        }
+        .selection.nn{
+          width: 90px;
+        }
+        .selection.noodles{
+          width: 90px;
+        }
+        .selection.pratob{
+          width: 90px;
+        }
+        .selection.pratocc{
+          width: 90px;
+        }
+        .selection.figura{
+          width: 90px;
+        }
+        .selection.folha{
+          width: 90px;
+        }
+        .selection.garfo{
+          width: 90px;
+        }
+        .selection.laranja{
+          width: 90px;
+        }
+        .selection.tomates{
+          width: 90px;
+        }
+        .selection.header.nav.a.hover{
+          width: 90px;
+        }
+
+    }
+   
