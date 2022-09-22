@@ -39,7 +39,7 @@ export default function App(){
                 
                 <button className='botao'>
                
-                  <a href='#'>  como fazemos &nbsp </a>
+                  <a href='#'>  como fazemos </a>
 
                   <a href='#'>Planos e serviços</a>
 
