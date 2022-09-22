@@ -1,17 +1,22 @@
-esse projeto e responsavel pela implementação do frontend de um 'site' de alimentos
-foi desenvolvido para desafio tecnico da Cloudopss
-em busca de melhoriasdo site
-cor de fundo sofreu alteraçoes
-botoes teve alteraçoes
+Este projeto e responsavel pela implementação do frontend de um 'site de alimentos'.
 
-criação 
+Foi desenvolvido para desafio tecnico da Cloudopss.
+
+Em busca de melhorias do site:
+Cor de fundo sofreu alteraçoes,
+Botoes teve alteraçoes,
+Foi mantido os elementos base do projeto,
+
+
+Criação: 
 npx
 npm
 
-executar 
+Executar o Projeto:
 npm start
 
-lingua
-javascript
-html
-css
+Tecnologias Utilizadas :
+Javascript
+React
+HTML
+CSS
